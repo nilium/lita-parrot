@@ -1,6 +1,9 @@
 # lita-parrot
 
-parrots, parrots everywhere \o\ /o/ \o/ \o\ /o/
+Gem to enhance the [Mighty Parrot](http://cultofthepartyparrot.com/) in Slack with Lita
+
+Based on a [very unserious project](https://github.com/skelz0r/lita-ovation) from my boss
+*Looks like my intership was useful*
 
 ## Installation
 
@@ -12,8 +15,8 @@ gem "lita-parrot"
 
 ## Configuration
 
-TODO: Describe any configuration attributes the plugin exposes.
+Serious, bro ?
 
 ## Usage
 
-TODO: Describe the plugin's features and how to use them.
+You'll find a way (twss)
