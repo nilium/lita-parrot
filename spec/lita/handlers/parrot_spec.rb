@@ -11,7 +11,7 @@ describe Lita::Handlers::parrot, lita_handler: true do
     it "celebrates lonely" do
       send_message('lita parrot')
 
-      message.should == ':parrot-conga-reversed: :parrot: :parrot: :parrot-conga-reversed: :parrot-conga:'
+      message.should == ':parrot-conga-reversed: :mini-jeremie: :parrot-conga:'
     end
   end
 

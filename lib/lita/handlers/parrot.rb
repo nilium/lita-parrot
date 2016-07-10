@@ -14,11 +14,11 @@ module Lita
 
       def format_parrot(match)
         if match.length == 0
-          ':parrot-conga-reversed: :mini-jeremie: :parrot-conga-reversed: :parrot-conga:'
+          ':parrot-conga-reversed: :mini-jeremie: :parrot-conga:'
         else
           str = ':parrot-conga-reversed: :parrot-conga: :parrot: '
           str+= match.gsub(/\s/, '')
-          str+= ' :parrot: :parrot-conga-reversed: :parrot-conga:'
+          str+= ':parrot: :parrot-conga-reversed: :parrot-conga:'
           str
         end
       end
