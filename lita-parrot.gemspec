@@ -1,8 +1,8 @@
 Gem::Specification.new do |spec|
   spec.name          = "lita-parrot"
   spec.version       = "0.1.0"
-  spec.authors       = ["Loïc Delmaire"]
-  spec.email         = ["loic.delmaire@gmail.com"]
+  spec.authors       = ["Loïc Delmaire & Jérémie Fortin"]
+  spec.email         = ["jeremie.fortin@sciencespo.fr"]
   spec.description   = ':parrot: parrot everywhere :parrot:'
   spec.summary       = ':parrot: parrot everywhere :parrot:'
   spec.metadata      = { "lita_plugin_type" => "handler" }

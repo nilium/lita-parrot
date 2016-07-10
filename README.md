@@ -3,6 +3,7 @@
 Gem to enhance the [Mighty Parrot](http://cultofthepartyparrot.com/) in Slack with Lita
 
 Based on a [very unserious project](https://github.com/skelz0r/lita-ovation) from my boss
+
 *Looks like my intership was useful*
 
 ## Installation
