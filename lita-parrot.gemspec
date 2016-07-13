@@ -2,7 +2,7 @@ Gem::Specification.new do |spec|
   spec.name          = "lita-parrot"
   spec.version       = "0.1.0"
   spec.authors       = ["Loïc Delmaire & Jérémie Fortin"]
-  spec.email         = ["jeremie.fortin@sciencespo.fr"]
+  spec.email         = ["loic@hellojam.fr", "jeremie.fortin@sciencespo.fr"]
   spec.description   = ':parrot: parrot everywhere :parrot:'
   spec.summary       = ':parrot: parrot everywhere :parrot:'
   spec.metadata      = { "lita_plugin_type" => "handler" }
@@ -18,6 +18,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "pry-byebug"
   spec.add_development_dependency "rake"
   spec.add_development_dependency "rack-test"
+  spec.add_development_dependency "rack", "< 2.0"
   spec.add_development_dependency "rspec", ">= 3.0.0"
   spec.add_development_dependency "simplecov"
   spec.add_development_dependency "coveralls"
