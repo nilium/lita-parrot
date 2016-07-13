@@ -1,4 +1,4 @@
-# lita-parrot
+# lita-parrot [![Build Status](https://travis-ci.org/skelz0r/lita-parrot.svg?branch=master)](https://travis-ci.org/skelz0r/lita-parrot)
 
 Gem to enhance the [Mighty Parrot](http://cultofthepartyparrot.com/) in Slack with Lita
 

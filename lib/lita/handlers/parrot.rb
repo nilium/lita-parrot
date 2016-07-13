@@ -1,6 +1,6 @@
 module Lita
   module Handlers
-    class parrot < Handler
+    class Parrot < Handler
       route(/^parrot(\s*|\s+(\S+))$/, :parrot, help: {
         'parrot' => ':parrot-conga-reversed: :parrot-conga:',
         'parrot Amora' => ':parrot-conga-reversed: Amora :parrot-conga:'
@@ -18,12 +18,12 @@ module Lita
         else
           str = ':parrot-conga-reversed: :parrot-conga: :parrot: '
           str+= match.gsub(/\s/, '')
-          str+= ':parrot: :parrot-conga-reversed: :parrot-conga:'
+          str+= ' :parrot: :parrot-conga-reversed: :parrot-conga:'
           str
         end
       end
     end
 
-    Lita.register_handler(parrot)
+    Lita.register_handler(Parrot)
   end
 end

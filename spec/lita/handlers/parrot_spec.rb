@@ -1,6 +1,6 @@
 require "spec_helper"
 
-describe Lita::Handlers::parrot, lita_handler: true do
+describe Lita::Handlers::Parrot, lita_handler: true do
   let(:message) { replies.last }
 
   it { is_expected.to route("lita parrot amora") }
@@ -17,9 +17,9 @@ describe Lita::Handlers::parrot, lita_handler: true do
 
   describe "with argument" do
     it "celebrates with friend" do
-      send_message('lita parrot Amora')
+      send_message('lita parrot skelz0r')
 
-      message.should == ':parrot-conga-reversed: :parrot-conga: :parrot: Amora :parrot: :parrot-conga-reversed: :parrot-conga:'
+      message.should == ':parrot-conga-reversed: :parrot-conga: :parrot: skelz0r :parrot: :parrot-conga-reversed: :parrot-conga:'
     end
   end
 end
